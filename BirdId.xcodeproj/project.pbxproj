@@ -48,11 +48,19 @@
 		E54FC4E825978994000B9711 /* BirdId */ = {
 			isa = PBXGroup;
 			children = (
+				E54FC50025979930000B9711 /* Classes */,
 				E54FC4E925978994000B9711 /* BirdId.h */,
 				E54FC4EA25978995000B9711 /* Info.plist */,
-				E54FC4F325978A04000B9711 /* BirdId.swift */,
 			);
 			path = BirdId;
+			sourceTree = "<group>";
+		};
+		E54FC50025979930000B9711 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E54FC4F325978A04000B9711 /* BirdId.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
