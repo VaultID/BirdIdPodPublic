@@ -80,8 +80,8 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "http://EXAMPLE/BirdId.git", :tag => "#{spec.version}" }
-
+#  spec.source       = { :git => "http://EXAMPLE/BirdId.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/VaultID/BirdIdPodPublic", :tag => "#{spec.version}" }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
